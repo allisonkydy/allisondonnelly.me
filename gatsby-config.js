@@ -5,6 +5,7 @@ module.exports = {
     author: `@allisonkydy`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -22,7 +23,7 @@ module.exports = {
         short_name: `Allison Donnelly`,
         start_url: `/`,
         background_color: `#f4f4f4`,
-        theme_color: `#00ba94`,
+        theme_color: `#2d1677`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
